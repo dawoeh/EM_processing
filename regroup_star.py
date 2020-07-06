@@ -64,7 +64,7 @@ try:
 		pass
 except NameError:
 	print("\nPlease define input/output files (-txt -star -star_out) and split for micrographs (-split) properly!\n")
-	print("Example: python2.7 clean_ctf_star.py -txt test.star -star particles.star \n")
+	print("Example: python -star particles.star -txt files.txt -split 3 -star_out particles_regrouped.star \n")
 	print("EXIT!")
 	quit()
 
